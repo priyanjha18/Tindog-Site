@@ -1,0 +1,126 @@
+#title{
+    background-color: #ff4c68;
+    padding:50px 100px 100px 100px;
+    
+    
+}
+.container-fluid{
+    padding-bottom:30px;
+}
+
+
+.features-box{
+    text-align: center; margin: 30px auto;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+.img-phn{
+    position: absolute;
+    right: 20%;
+    transform: rotate(30deg); 
+    width: 300px;
+    margin-top: 20px;
+    
+}
+
+
+
+#featuress{
+    background-color: #fff;
+    position:relative;
+    z-index:1;
+    padding: 100px;
+    
+}
+
+.ico{
+    color:#ef8172 ;
+    margin-bottom: 10px;
+    font-size: 80px;
+}
+.ico:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color:#ef8172;
+    
+}
+
+h2{
+    font-family: "montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    
+}
+.dog-img{
+    width:200px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 100%;
+}
+.press-img{
+    width: 150px;
+    text-align: center;
+    margin:20px 50px;
+    margin-bottom: 30px;
+}
+.carousel-item{
+    padding: 5% 6%;
+}
+h2{
+    font-family: 'Montserrat-Bold'; 
+    font-size:3.5rem;
+    line-height: 1.5;color: #fff;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+
+}
+.pricing-coloumn{
+   padding:3% 5% ;
+}
+@media (max-width:1050px){
+    .img-phn{
+        position: static;
+        transform: rotate(0);
+
+    }
+    #title{
+        text-align: center;
+    }
+}
+/*call to action*/
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 100px;
+}
+.ctab{
+    margin:20px;
+
+}
+#footer{
+    text-align: center;
+    padding:60px 60px 20px 60px;
+}
+.foot{
+    margin:10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.foot:hover{
+    color:black;
+}
